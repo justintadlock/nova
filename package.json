@@ -1,0 +1,38 @@
+{
+	"name": "nova",
+	"version": "1.0.0",
+	"description": "Mythic is a next-generation starter theme designed to help theme authors write elegant, intelligent, and modern code.",
+	"author": "Justin Tadlock",
+	"license": "GPL-2.0+",
+	"homepage": "https://themehybrid.com/themes/mythic",
+	"main": "resources/js/app.js",
+	"scripts": {
+		"build": "npm run prod && npm run i18n && npm run export",
+		"dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+		"watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+		"watch:sync": "cross-env sync=1 NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+		"hot": "cross-env sync=1 NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+		"prod": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/justintadlock/mythic.git"
+	},
+	"bugs": {
+		"url": "https://github.com/justintadlock/mythic/issues"
+	},
+	"devDependencies": {
+		"browser-sync": "^2.24.7",
+		"browser-sync-webpack-plugin": "2.2.2",
+		"copy-webpack-plugin": "^4.5.2",
+		"cross-env": "^5.2.0",
+		"imagemin-mozjpeg": "^6.0.0",
+		"imagemin-webpack-plugin": "^2.2.0",
+		"laravel-mix": "^4.0.14",
+		"postcss-preset-env": "^5.3.0",
+		"sass": "^1.20.3",
+		"sass-loader": "^7.1.0",
+		"tailwindcss": "^1.0.3"
+	},
+	"dependencies": {}
+}

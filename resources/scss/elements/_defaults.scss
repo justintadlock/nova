@@ -1,0 +1,31 @@
+////
+/// Default elements.
+///
+/// @group  Elements
+/// @author Justin Tadlock <justintadlock@gmail.com>
+/// @link   https://themehybrid.com/themes/mythic
+////
+
+html {
+	font-size: 16px;
+	font-family: Georgia;
+	line-height: 1.667;
+	background: #fff;
+	color: #858585;
+
+	@media ( max-width: break( 'mobile' ) ) {
+		font-size: 15px;
+	}
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+// Body styles. Note that we're hiding horizontal overflow so that wide images
+// don't overflow.
+body {
+	overflow-x: hidden;
+}

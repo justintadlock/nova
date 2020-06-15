@@ -1,0 +1,38 @@
+// Code.
+
+pre,
+code {
+	direction   : ltr;
+	text-align  : left;
+//	font-family : $font_code;
+//	color       : $blue_matisse;
+}
+
+code {
+	padding    : .125em .25em;
+    	font-size  : 0.9375rem;
+	background : rgba( 214, 224, 231, 0.25 );
+}
+
+pre {
+	overflow      : auto;
+	word-wrap     : normal;
+	tab-size      : 4;
+	margin:         0 0 $spacing-global;
+	padding       : $spacing-global;
+	font-size     : 15px;
+	line-height   : 30px;
+	color         : color( 'silver-chalice' );
+	background    : #454545;
+	//border        : 1px solid #f1f1f1;
+	border-radius : 3px;
+	box-shadow    : 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+	box-sizing    : border-box;
+
+	code {
+		padding    : 0;
+		font-size  : 1em;
+		background : transparent;
+		border     : none;
+	}
+}

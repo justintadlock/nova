@@ -1,0 +1,40 @@
+// Quotes.
+
+blockquote {
+	margin     : 0;
+	padding    : 0 $spacing-global;
+	font-size  : 1.125rem;
+	font-style : italic;
+	//border-left: 2px solid color( 'white-smoke' );
+	color: #959595;
+
+	&::before {
+		content: " ";
+		display: block;
+		width: 25%;
+		margin: 0 auto;
+		padding: 0 0 1.5rem;
+		border-top: 2px solid color( 'white-smoke' );
+	}
+
+	i,
+	em,
+	cite { font-style : normal; }
+
+	.has-cite {
+		margin-top: -1rem;
+		text-align: center;
+	}
+
+	cite {
+		font-size: 1rem;
+		font-variant: small-caps;
+		color: #656565;
+	}
+
+	//cite,
+	//footer { font-family : $font_secondary; }
+}
+
+// Inline quotes.
+q { quotes : '\201C' '\201D' '\2018' '\2019'; }

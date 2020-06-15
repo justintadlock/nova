@@ -1,0 +1,280 @@
+---
+title : Movies
+---
+
+A collection of all the movies I own in various formats.
+
+- 300
+- 40 Year Old Virgin
+- A Knight's Tale
+- A Love Song For Bobby Long
+- A Man Apart
+- A Midsummer Night's Dream
+- A Walk To Remember
+- About A Boy
+- Aeon Flux
+- Ali
+- Almost Famous
+- Amélie
+- Amercian Wedding
+- American Beauty
+- American Pie
+- American Pie 2
+- American Pie: Bandcamp
+- Annapolis
+- Antitrust
+- Any Given Sunday
+- Art School Confidential
+- Artificial Intelligence
+- Back To The Future
+- Back To The Future II
+- Back To The Future III
+- Bandits
+- Batman Begins
+- Big Fat Liar
+- Black Snake Moan
+- Blade
+- Blade 2
+- Blade: Trinity
+- Blow
+- Blue Velvet
+- Boiler Room
+- Breakfast At Tiffany's
+- Bring It On
+- Brokeback Mountain
+- Bruce Almighty
+- Buffy The Vampire Slayer
+- Caddyshack 2
+- Capturing The Friedmans
+- Cars
+- Catch Me If You Can
+- Charlie's Angels: Full Throttle
+- Cheaper By The Dozen
+- Cheaper By The Dozen 2
+- Chicken Little
+- Children of Men
+- Christmas With The Kranks
+- Citizen Kane
+- Click
+- Closer
+- Collateral
+- Cool Hand Luke
+- Crash
+- Crouching Tiger Hidden Dragon
+- Cruel Intentions
+- Cruel Intentions 2
+- Dazed And Confused
+- Dogma
+- Domino
+- Don't Say A Word
+- Down To Earth
+- Dracula
+- Elektra
+- Ellie Parker
+- Empire Falls
+- Eternal Sunshine Of The Spotless Mind
+- Fantastic Four
+- Far And Away
+- Final Fantasy: The Spirits Within
+- Finding Neverland
+- Friday Night Lights
+- From Duck Til' Dawn
+- From Hell
+- Fun With Dick And Jane
+- Gentlemen Prefer Blondes
+- Getting There
+- Ghosts of Mississippi
+- Girl, Interrupted
+- Glory Road
+- Gone In 60 Seconds
+- Good Will Hunting
+- Goodfellas
+- Guess Who
+- Hannibal
+- Heat
+- Hitch
+- Holiday In The Sun
+- Hollow Man
+- Hoodwinked
+- Hotel Rwanda
+- House Of Flying Daggers
+- House Of Games
+- How High
+- I [Heart] Huckabees
+- I, Robot
+- Idle Hands
+- Interview With A Vampire
+- Into The Blue
+- Intolerable Cruelty
+- Invincible
+- Jarhead
+- Jerry MaGuire
+- Junebug
+- Kill Bill Vol. 1
+- Kill Bill Vol. 2
+- King Arthur
+- King Kong
+- Kingdom Of Heaven
+- Kiss Of The Dragon
+- Lady And The Tramp
+- Left Behind II: The Tribulation Force
+- Legally Blonde
+- Legends Of The Fall
+- Love Actually
+- Love And Basketball
+- Major League Baseball 2
+- Man On Fire
+- Mask Of Zorro
+- Me, Myself, and Irene
+- Mean Girls
+- Memento
+- Memoirs Of A Geisha
+- Men In Black II
+- Miami Vice
+- Midnight In the Garden Of Good and Evil
+- Million Dollar Baby
+- Minority Report
+- Monster's Ball
+- Mortal Kombat
+- Mortal Kombat: Annihilation
+- Moulin Rouge
+- Mr. Deeds
+- Mulholland Drive
+- New York Minute
+- Ocean's Eleven
+- One Hour Photo
+- Panic Room
+- Pirates Of The Carribean
+- Pitch Black
+- Planet Earth
+- Platoon
+- Pride & Prejudice
+- Pulp Fiction
+- Queen Of The Damned
+- Rain Man
+- Rashomon
+- Ray
+- Rebel Without A Cause
+- Remember The Titans
+- Resevoir Dogs
+- Resident Evil
+- Resident Evil: Apocalypse
+- Risky Business
+- Road Trip
+- Robin Hood: Prince of Thieves
+- Robots
+- Romeo & Juliet
+- Rudy
+- Run Lola Run
+- Save The Last Dance
+- Saved
+- Scarface
+- Scary Movie
+- Scooby Doo 2
+- Serendipity
+- Serenity
+- Shark Tale
+- Sherman's March
+- Showgirls
+- Shrek
+- Shrek 2
+- Signs
+- Silkwood
+- Simply Irresistable
+- Sin City
+- Sky Captain And The World Of Tomorrow
+- Spanglish
+- Spiderman
+- Spiderman 2
+- Spy Game
+- Star Wars I: The Phantom Menace
+- Star Wars II: Attack Of The Clones
+- Star Wars III: Revenge Of The Sith
+- Star Wars IV: A New Hope
+- Star Wars V: The Empire Stikes Back
+- Star Wars VI: Return Of The Jedi
+- Stealth
+- Superman
+- Superman 2
+- Superman Returns
+- Swordfish
+- Syriana
+- Talladega Nights: The Ballad of Ricky Bobby
+- Teenage Mutant Ninja Turtles
+- Teenage Mutant Ninja Turtles II
+- Teenage Mutant Ninja Turtles III
+- Terminator 2: Judgement Day
+- Terminator 3: Rise Of The Machines
+- Thank You For Smoking
+- The Aviator
+- The Black Mask
+- The Bourne Supremacy
+- The Breakfast Club
+- The Brothers Grimm
+- The Butterfly Effect 2
+- The Chronicles of Narnia: The Lion, The Witch, And The Wardrobe
+- The Da Vinci Code
+- The Day After Tomorrow
+- The Departed
+- The Devil Wears Prada
+- The Fast And The Furious
+- The Four Feathers
+- The Girl Next Door
+- The Godfather
+- The Godfather Part II
+- The Godfather Part III
+- The Grudge
+- The Incredibles
+- The Island
+- The Land Before Time
+- The Last Samurai
+- The Legend Of Bagger Vance
+- The Legend Of Zorro
+- The Lion King
+- The Lion King 1 1/2
+- The Longest Yard
+- The Mod Squad
+- The New World
+- The Notebook
+- The Passion Of The Christ
+- The Pianist
+- The Program
+- The Punisher
+- The Replacements
+- The Royal Tennenbaums
+- The Scorpion King
+- The Sweet Hereafter
+- The Terminal
+- The Terminator
+- The Village
+- The Wedding Singer
+- There's Something About Mary
+- Thin Blue Line
+- Thirteen
+- Three To Tango
+- Titus
+- Tomb Raider
+- Trainspotting
+- Troy
+- Twin Peaks: Fire Walk With Me
+- Unbreakable
+- Underworld
+- Underworld: Evolution
+- V For Vendetta
+- Van Helsing
+- Van Wilder
+- Vanilla Sky
+- Varsity Blues
+- Vertigo
+- Walk The Line
+- War Of The Worlds
+- Waterworld
+- What's The Worst That Could Happen
+- When In Rome
+- Winning London
+- Woman On Top
+- X-Men
+- X-Men 2: X-Men United
+- X-Men 3: The Last Stand
+- XXX
+- Zelig

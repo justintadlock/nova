@@ -1,0 +1,175 @@
+////
+/// Nav menu component.
+///
+/// @group  Components
+/// @author Justin Tadlock <justintadlock@gmail.com>
+/// @link   https://themehybrid.com/themes/mythic
+////
+
+body.menu-open {
+	overflow-y: scroll;
+	width:      100%;
+}
+
+.below-app-header {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	overflow-y: hidden;
+	// Note: transition jumps when coming back in due to the position.
+	transition: normal;
+
+	.menu-open & {
+		position: fixed;
+		z-index:  90;
+		height:   100%;
+		left:     0;
+		right:    0;
+
+		@media screen and ( max-width: 480px ) {
+			margin-left: -100%;
+			transition:  all .4s ease-in-out 0s;
+		}
+	}
+}
+
+.overlay {
+	.menu-open & {
+		width:    100%;
+		height:   100%;
+		z-index:  90;
+		position: absolute;
+		background: rgba( 255, 255, 255, 0.5 );
+	}
+}
+
+.menu {
+
+	&--primary {
+		float: right;
+		margin: 0;
+		font-family: 'Roboto', sans-serif;
+		font-size: 15px;
+
+		.menu__title {
+			margin: -0.75rem 0 0 0;
+			font-size: 0;
+		}
+
+		.menu__toggle {
+			display:    inline-block;
+			width:  78px;
+			height: 58px;
+			margin:     0;
+			padding-left:  1.5rem;
+			padding-right: 1.5rem;
+			color: #aaa;
+			background: transparent;
+			border: none;
+			outline: none;
+
+			&:hover,
+			&:focus,
+			&.is-active {
+				color: #fff;
+				background: #222;
+			}
+
+			& svg {
+				width:       28px;
+				height:      28px;
+				line-height: 1em;
+				background:  transparent;
+				border:      none;
+				transition:  none;
+			}
+		}
+
+		.menu__items {
+			float:      right;
+			display:    block;
+			visibility: hidden;
+			position:   fixed;
+			top:         57px;
+			bottom:      0;
+			right:       -400px;
+			z-index:     999999;
+			overflow-y:  auto;
+			width:       400px;
+			margin:     0;
+			padding:    0;
+			transition: all .4s ease-in-out 0s;
+			box-sizing: border-box;
+			list-style: none;
+			text-align: left;
+			background: #222;
+
+			@media only screen and ( min-width: 769px ) and ( max-width: 998px ) {
+				width: 500px;
+				right: -500px;
+			}
+
+			@media only screen and ( max-width: 768px ) {
+				width: 100%;
+				right: -100%;
+			}
+		}
+
+		&.is-open .menu__items {
+			visibility: visible;
+			right:      0;
+		}
+
+		.menu__item {
+			display: block;
+			margin: 0;
+			padding: 0;
+			font-size:   15px;
+		}
+
+		.menu__anchor {
+			display:       block;
+			line-height:   1.5;
+			padding:       1.125rem 1.5rem;
+			color:         #fff;
+			text-decoration: none;
+			border-bottom: 1px dashed #2e2e2e;
+
+			&:hover,
+			&:focus {
+				background: #202020;
+				text-decoration: underline;
+			}
+		}
+	}
+
+	&--social {
+
+		.menu__items {
+			list-style: none;
+			text-align: center;
+			margin: 0 0 1.5rem;
+			padding: 0;
+		}
+
+		.menu__item {
+			display: inline-block;
+		}
+
+		.menu__anchor {
+			display: inline-block;
+			margin:   0.5rem;
+			color:    #aaa;
+
+			&:hover,
+			&:focus {
+				color: color( 'coral-red' );
+			}
+
+			svg {
+				width: 24px;
+				height: 24px;
+			}
+		}
+	}
+}

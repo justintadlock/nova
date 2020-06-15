@@ -1,0 +1,37 @@
+////
+/// Set up and define colors.
+///
+/// @group  Settings
+/// @author Justin Tadlock <justintadlock@gmail.com>
+/// @link   https://themehybrid.com/themes/mythic
+////
+
+/// Returns a map of colors in name-value format. This function also merges
+/// with the `block-colors()` map to create a map of all colors.
+///
+/// @since  1.0.0
+/// @access public
+/// @return {map}  Map of defined colors.
+
+@function colors() {
+
+	@return (
+		white          : #fff,
+		black          : #000,
+		coral-red      : #ff3b3d,
+		silver-chalice : #a9a9a9,
+		white-smoke    : #f1f1f1
+	);
+}
+
+/// Returns a single color value by name.
+///
+/// @since  1.0.0
+/// @access public
+/// @param  {string}  $name  Color name.
+/// @return {string}         Color value.
+
+@function color( $name ) {
+
+	@return map-get( colors(), $name );
+}

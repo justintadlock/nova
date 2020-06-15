@@ -1,0 +1,85 @@
+---
+title : TV Series
+---
+
+A collection of all the TV series I own in various formats. For the most part, I own the complete series. However, I'm still working on completing a few of the series.
+
+- 24
+- Alias
+- Angel
+- Babylon 5
+- Battlestar Galactica
+- Being Human
+- Bionic Woman
+- Birds of Prey
+- Bones
+- Boy Meets World
+- Buffy the Vampire Slayer
+- Caprica
+- Carnivale
+- Charmed
+- Dark Angel
+- Dawson's Creek
+- Dead Like Me
+- Defying Gravity
+- Desperate Housewives
+- Doctor Who
+- Dollhouse
+- Earth: Final Conflict
+- Everwood
+- Family Guy
+- Farscape
+- Firefly
+- Friday Night Lights
+- Friends
+- Fringe
+- Gilmore Girls
+- Glee
+- Grey's Anatomy
+- Harper's Island
+- Heroes
+- Hex
+- Joan of Arcadia
+- Joey
+- Justified
+- King of the Hill
+- Kyle XY
+- Legend of the Seeker
+- Lost
+- Medium
+- Merlin
+- My Lovely Sam Soon
+- Nip/Tuck
+- One Tree Hill
+- Planet Earth
+- Rome
+- Roswell
+- Sanctuary
+- Scrubs
+- Seinfeld
+- Sherlock
+- Smallville
+- Star Trek: Deep Space Nine
+- Star Trek: Enterprise
+- Star Trek: The Next Generation
+- Star Trek: Voyager
+- Stargat Atlantis
+- Stargate SG-1
+- Stargate Universe
+- Supernatural
+- Terminator: The Sarah Connor Chronicles
+- The 4400
+- The Dukes of Hazzard
+- The Ghost Whisperer
+- The O.C.
+- The Office (U.S.)
+- The Secret Life of the American Teenager
+- The Sopranos
+- The Walking Dead
+- Tru Calling
+- V
+- Veronica Mars
+- VIP
+- Warehouse 13
+- Weeds
+- Without a Trace

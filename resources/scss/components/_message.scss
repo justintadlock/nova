@@ -1,0 +1,38 @@
+////
+/// Message component.
+///
+/// @group  Components
+/// @author Justin Tadlock <justintadlock@gmail.com>
+/// @link   https://themehybrid.com/themes/mythic
+////
+
+.message {
+	box-sizing:    border-box;
+	overflow:      hidden;
+	width:         calc( 100% + 3em );
+	margin:        0 0 2em -1.5em;
+	padding:       2em 1.5em 0;
+	font-style:    italic;
+	color:         #aaa;
+	background:    #f6f6f6;
+	border-top:    1px solid color( 'white-smoke' );
+	border-bottom: 1px solid color( 'white-smoke' );
+
+	@media( min-width: break( 'content' ) ) {
+		width:       calc( 100% + 4em );
+		margin-left: -2em;
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+
+	&__title {
+		line-height: 1;
+		margin-top:  0;
+		font-size:   1.25em;
+		font-style:  normal;
+	}
+}
+
+p.message {
+	padding-bottom: 2em;
+}
