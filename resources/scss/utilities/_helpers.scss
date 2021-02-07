@@ -6,8 +6,23 @@
 /// @link   https://themehybrid.com/themes/mythic
 ////
 
-.sep {
-	margin: 0 0.5em;
+:first-child {
+	margin-top: 0;
+}
+
+h1 + *,
+h2 + *,
+h3 + *,
+h4 + *,
+h5 + *,
+h6 + * {
+	margin-top: 0;
+}
+
+/// Clear floats.
+
+.clear {
+	clear: both;
 }
 
 // Used for small images that are possibly something like a smiley, transparent
@@ -21,6 +36,6 @@
 // Used for paragraphs that only contain an image. These have no height. We use
 // JS to add the `.is-collapsed` class and remove any margins and paddings.
 .is-collapsed {
-	margin: 0;
-	padding: 0;
+	//margin: 0;
+	//padding: 0;
 }

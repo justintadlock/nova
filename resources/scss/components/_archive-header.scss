@@ -7,17 +7,8 @@
 ////
 
 .archive-header {
-	margin-bottom: 3rem;
-	text-align: center;
 
-	&__title {
-		@include heading-primary;
-	}
+	&__title {}
 
-	&__description {
-		@include meta;
-		margin: 0;
-		padding-top: 1.5rem;
-		border-top: 1px solid #f1f1f1;
-	}
+	&__description {}
 }

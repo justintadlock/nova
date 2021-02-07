@@ -6,7 +6,7 @@ ol {
 	//margin      : 0 0 1.3em 0;
 	padding-left: $spacing-global;
 	line-height: 2;
-	margin: 0 0 $spacing-global;
+	margin-top: $spacing-global;
 
 	@media ( max-width: break( 'mobile' ) ) {
 		padding-left: $spacing-half;
@@ -15,4 +15,8 @@ ol {
 
 // Remove bottom margin from lists that are direct children of a list item.
 li > ul,
-li > ol { margin-bottom : 0; }
+li > ol { margin: 0; }
+
+.app-main li {
+	padding: 2px 0;
+}

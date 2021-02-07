@@ -1,21 +1,22 @@
-// Headings.
-h1, h2, h3, h4, h5, h6 {
-	margin:      0 0 0.5em;
-	line-height: 1.58;
-	font-family: sans-serif;
+
+// All headings.
+h1, h2, h3, h4, h5, h6, dt {
+	font-family: $font-family-headings;
 	font-weight: 700;
-	color:       #222;
 }
 
-h1, h2, h3, h4 {
-	margin-top: 1.414em;
+// Headings.
+h1, h2, h3, h4, h5, h6 {
+	margin:            1.414em 0 0.5em;
+	line-height:       1.25;
+	color:             $gray-800;
 }
 
 h1 {
 	font-size:  3rem;
 
-	@media ( max-width: break( 'content' ) ) {
-		font-size: 2.5rem;
+	@media ( max-width: $content-width ) {
+		font-size: 2.25rem;
 	}
 }
 

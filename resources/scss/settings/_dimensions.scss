@@ -3,8 +3,20 @@
 ///
 /// @group  Settings
 /// @author Justin Tadlock <justintadlock@gmail.com>
-/// @link   https://themehybrid.com/themes/mythic
+/// @link   https://themehybrid.com/themes/exhale
 ////
+
+$width-alignwide : 56rem;
+$width-alignfull : 100vw;
+
+$content-width: 40rem;
+
+$content-width-padded : $content-width + ( $spacing-global * 2 );
+
+$alignwide-padded : $width-alignwide + ( $spacing-global * 2 );
+
+$breakpoint-sm: $content-width + ( $spacing-global * 2 );
+$breakpoint-md: $width-alignwide + ( $spacing-global * 2 );
 
 /// Defines the content width. This should match the theme's `$content_width`
 /// setting in `app/functions-setup.php`.
@@ -14,5 +26,5 @@
 /// @return {number}  The content width in pixels.
 
 @function content-width() {
-	@return 650px;
+	@return $content-width;
 }

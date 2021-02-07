@@ -9,14 +9,6 @@
 ////
 
 .app-content {
-	overflow: hidden;
-	position:  relative;
-	max-width: 100%;
-	margin:    0 auto;
-	padding:   3rem $spacing-global 0;
 	word-wrap  : break-word;
 	word-break : normal;
-	font-size:   1.1875rem; // 19px
-	line-height: 1.8;
-	box-sizing: border-box;
 }

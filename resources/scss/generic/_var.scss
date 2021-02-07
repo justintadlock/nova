@@ -9,16 +9,4 @@
 /// @link   https://themehybrid.com/themes/mythic
 ////
 
-/*
-:root {
-	// var( --color-{$name} )
-	@each $color-name, $color-value in block-colors() {
-		--color-#{ $color-name }: #{ $color-value };
-	}
-
-	// var( --font-family-{$name} )
-	@each $family-name, $family-value in font-families() {
-		--font-family-#{ $family-name }: #{ $family-value };
-	}
-}
-*/
+:root {}

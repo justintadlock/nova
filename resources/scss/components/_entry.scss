@@ -20,38 +20,19 @@
 	&__image {}
 
 	// Header wrapper.
-	&__header {
-		text-align: center;
-		margin-bottom: $spacing-global;
-	}
+	&__header {}
 
 	// Entry title.
 	&__title {
-		margin:    0;
-		font-size: 2.125rem;
-		font-weight: 400;
 
 		a {
-			padding: 1px 2px;
-			color: #454545;
-			text-decoration: none;
-
 			&:hover,
-			&:focus {
-				text-decoration: underline;
-				background: #FFFBCC;
-			}
+			&:focus {}
 		}
 	}
 
 	// Subtitle.
-	&__subtitle {
-		margin-top: -0.83em;
-		margin-bottom: 1.66em;
-		font-size: 1.25rem;
-		font-style: italic;
-		color: #bbb;
-	}
+	&__subtitle {}
 
 	// Full entry content.
 	&__content {}
@@ -61,65 +42,20 @@
 
 	// Meta wrappers.
 	&__byline,
-	&__footer {
-		@include meta;
-	}
+	&__footer {}
 
-	&__byline {
-		margin: 1em 0 0.5em 0;
-		font-size: 16px;
-		font-style: italic;
-		color: #bbb;
-	}
+	&--format-aside {}
 
-	&--format-aside,
-	&__notes {
-		box-sizing:    border-box;
-		overflow:      hidden;
-		width:         calc( 100% + 3em );
-		margin:        0 0 -#{ $spacing-global } -#{ $spacing-global };
-		padding:       $spacing-global $spacing-global 0;
-		font-style:    italic;
-		color:         #aaa;
-		background:    #f6f6f6;
-		border-top:    1px solid color( 'white-smoke' );
-		border-bottom: 1px solid color( 'white-smoke' );
+	&__notes {}
 
-		@media( min-width: break( 'content' ) ) {
-			width:       calc( 100% + #{ $spacing-2x } );
-			margin-left: -#{ $spacing-global };
-			padding:     $spacing-global $spacing-global 0;
-		}
-	}
+	&--format-aside {}
 
-	&--format-aside {
-		margin-top: $spacing-global;
-		margin-bottom: $spacing-global;
-	}
-
-	&__footer {
-		margin: $spacing-global 0;
-		padding-top: $spacing-global;
-		text-align: center;
-		border-top: 1px solid color( 'white-smoke' );
-	}
-
-	&__notes + &__footer {
-		border-top: none;
-	}
+	&__footer {}
 
 	&__topics {
 		a {
-			margin: 0 0.25rem;
+			&:hover,
+			&:focus {}
 		}
 	}
-
-	&--single &__header {
-		margin-bottom: 3rem;
-	}
-
-	&--single &__title {
-		@include heading-primary;
-	}
-
 }

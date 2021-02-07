@@ -1,10 +1,11 @@
-// Bottom margin for all block-level elements not covered elsewhere.
+
+// Margin for all block-level elements not covered elsewhere.
 p,
 hr,
 address,
 table,
 figure {
-	margin-bottom: $spacing-global;
+	margin-top: $spacing-global;
 }
 
 // Paragraphs.
@@ -18,5 +19,5 @@ p {
 hr {
 	height:     0;
 	border:     none;
-	border-top: 2px solid color( 'white-smoke' );
+	border-top: 3px dashed $gray-300;
 }
