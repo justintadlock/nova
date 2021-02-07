@@ -18,4 +18,9 @@ class Str {
 
 		return trim( $str, '/' );
 	}
+
+	public static function startsWith( $str, $starts ) {
+
+		return substr( $str, 0, strlen( $starts ) ) === $starts;
+	}
 }

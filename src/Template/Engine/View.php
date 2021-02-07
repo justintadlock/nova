@@ -18,12 +18,12 @@ class View {
 
 		foreach ( $this->slugs as $slug ) {
 
-			if ( file_exists( resource_path( "views/{$this->name}-{$slug}.php" ) ) ) {
-				return resource_path( "views/{$this->name}-{$slug}.php" );
+			if ( file_exists( public_path( "views/{$this->name}-{$slug}.php" ) ) ) {
+				return public_path( "views/{$this->name}-{$slug}.php" );
 			}
 		}
 
-		return resource_path( "views/{$this->name}.php" );
+		return public_path( "views/{$this->name}.php" );
 	}
 
 	public function display() {

@@ -35,7 +35,19 @@ class Page {
 		$all = $entries->all();
 		$entry = array_shift( $all );
 
-		Engine::view( 'page', [ $this->slug ], [
+		if ( is_null( $entry ) ) {
+			$controller = new Error404();
+			$controller();
+			die();
+		}
+
+		$slugs = [ $this->slug ];
+
+		if ( $template = $entry->meta( 'template' ) ) {
+			$slugs = [ $template, $this->slug ];
+		}
+
+		Engine::view( 'page', $slugs, [
 			'title'   => $entry ? $entry->title() : 'Not Found',
 			'query'   => $entry ? $entry : false,
 			'page'    => 1,

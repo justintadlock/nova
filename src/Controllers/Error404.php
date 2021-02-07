@@ -29,7 +29,7 @@ class Error404 {
 		$all = $entries->all();
 		$entry = array_shift( $all );
 
-		Engine::view( 'page', [], [
+		Engine::view( 'error-404', [], [
 			'title'   => $entry ? $entry->title() : 'Not Found',
 			'page'    => 1,
 			'entries' => $entries

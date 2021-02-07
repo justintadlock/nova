@@ -8,7 +8,7 @@ use Nova\Tools\Collection;
 
 class Routes {
 
-	protected $path = '/justin';
+	//protected $path = '/justin';
 
 	protected $routes;
 	protected $routers = [];
@@ -123,6 +123,8 @@ class Routes {
 
 	public function request() {
 
-		return preg_replace( "#{$this->path}#", '', App::resolve( 'request' )->uri(), 1 );
+		return App::resolve( 'request' )->uri();
+
+		//return preg_replace( "#{$this->path}#", '', App::resolve( 'request' )->uri(), 1 );
 	}
 }

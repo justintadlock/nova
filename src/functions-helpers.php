@@ -1,6 +1,5 @@
 <?php
 
-
 function path( $path = '' ) {
 
 	$path = trim( $path, '/' );

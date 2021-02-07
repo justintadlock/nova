@@ -3,7 +3,7 @@
 namespace Nova\Entry;
 
 use ParsedownExtra;
-//use Nova\Tools\Markdown;
+use Nova\Tools\Markdown;
 
 use Michelf\SmartyPants;
 use Michelf\SmartyPantsTypographer;
@@ -145,7 +145,7 @@ class Entry {
 
 	protected function parseContent( $content ) {
 
-		$parsedown = new ParsedownExtra();
+		$parsedown = new Markdown();
 
 		$content = preg_replace(
 			"/{{.+?media\(.+?['\"](.+?)['\"].+?\).+?}}/i",
