@@ -34,11 +34,7 @@ var sassConfig = {
 };
 
 // Compile SASS/CSS.
-if ( mix.inProduction() ) {
-	mix.sass( `${devPath}/scss/screen.scss`, 'css', sassConfig );
-} else {
-	mix.standaloneSass( `${devPath}/scss/screen.scss`, 'css', sassConfig );
-}
+mix.sass( `${devPath}/scss/screen.scss`, 'css', sassConfig );
 
 // Add custom Webpack configuration.
 mix.webpackConfig( {
