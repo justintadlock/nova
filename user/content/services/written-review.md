@@ -46,4 +46,4 @@ Some other interesting writing accomplishments:
 
 - I taught English as a second language in South Korea.
 - I co-authored _[Professional WordPress Plugin Development](plugindevbook)_.
-- I rocked National Novel Writing Month in [2018](http://justintadlock.com/archives/2018/12/01/nanowrimo-2018-and-beyond).
+- I rocked National Novel Writing Month in [2018](/archives/2018/12/01/nanowrimo-2018-and-beyond).

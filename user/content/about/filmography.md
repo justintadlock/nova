@@ -1,7 +1,7 @@
 ---
 id    : 367
 title : Filmography
-date  : 2007-02-03 23:28 -5
+date  : 2007-02-03 23:28:00 -5
 ---
 
 This is the page showing what films I've done and what parts I've played in them.

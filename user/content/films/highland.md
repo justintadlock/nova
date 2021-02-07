@@ -2,7 +2,7 @@
 title : "Highland"
 ---
 
-![Highland Cover Art](http://justintadlock.com/wp-content/uploads/2007/02/highland01.jpg)
+![Highland Cover Art](/wp-content/uploads/2007/02/highland01.jpg)
 
 Created by [Justin Tadlock](/about)
 

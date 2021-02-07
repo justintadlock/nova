@@ -2,7 +2,7 @@
 title : A Piece Of My Eternal Life
 ---
 
-![A Piece Of My Eternal Life Cover Art](http://justintadlock.com/wp-content/uploads/2007/02/myeternallifecover00.jpg)
+![A Piece Of My Eternal Life Cover Art](/wp-content/uploads/2007/02/myeternallifecover00.jpg)
 
 - [Justin Tadlock](/about) Writing credits
 - [Justin Tadlock](/about) (Screenplay)

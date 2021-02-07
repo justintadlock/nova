@@ -50,3 +50,12 @@ Maybe in another year I'll update this page with a better sense of myself.
 - A custom-built CMS.
 - [Atom](https://atom.io/) for code editing and writing.
 - My heart and soul.
+
+---
+
+Previous "About Me" Pages:
+
+- [October 2018](about/about-4)
+- [February 2013](about/about-3)
+- [March 2008](about/about-2)
+- [February 2007](about/about-1)

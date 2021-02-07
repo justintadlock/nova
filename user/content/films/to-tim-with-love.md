@@ -2,7 +2,7 @@
 title : "To Tim With Love"
 ---
 
-![To Tim With Love Cover Art](http://justintadlock.com/wp-content/uploads/2007/02/to-tim-with-love-small.jpg)
+![To Tim With Love Cover Art](/wp-content/uploads/2007/02/to-tim-with-love-small.jpg)
 
 Produced by
 

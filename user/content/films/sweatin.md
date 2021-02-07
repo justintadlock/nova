@@ -2,7 +2,7 @@
 title : "Sweatin'"
 ---
 
-![Sweatin' Cover Art](http://justintadlock.com/wp-content/uploads/2007/02/sweatin.jpg)
+![Sweatin' Cover Art](/wp-content/uploads/2007/02/sweatin.jpg)
 
 Written &amp; Directed by
 
