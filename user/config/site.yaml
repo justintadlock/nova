@@ -1,0 +1,8 @@
+# A custom title for the site.
+title       : "Justin Tadlock"
+
+# Custom description/tagline for the site.
+description : "Life & Stuff"
+
+# The base URL for the site (generally, this is the homepage).
+uri         : http://localhost/nova

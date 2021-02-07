@@ -2137,15 +2137,6 @@
 		],
 		"era": "college"
 	},
-	"2007-07-28.peanut-butter-and-watermelon-rind.md": {
-		"date": 1343521740,
-		"era": "life-with-shannon",
-		"category": [
-			"food",
-			"gardening",
-			"life"
-		]
-	},
 	"2007-08-10.seoul-bound.md": {
 		"date": 1186728060,
 		"category": [
@@ -4518,6 +4509,15 @@
 		"era": "life-with-shannon",
 		"category": "wordpress"
 	},
+	"2012-07-28.peanut-butter-and-watermelon-rind.md": {
+		"date": 1343521740,
+		"era": "life-with-shannon",
+		"category": [
+			"food",
+			"gardening",
+			"life"
+		]
+	},
 	"2012-07-31.big-yellow-meat-watermelon.md": {
 		"date": 1343789100,
 		"era": "life-with-shannon",
@@ -6018,12 +6018,71 @@
 		]
 	},
 	"2020-05-01.thirty-six.md": {
-		"date": 1588312800,
+		"date": 1588365830,
 		"era": "current",
 		"category": [
 			"life",
 			"birthday",
 			"holidays"
 		]
+	},
+	"2020-06-16.professional-wordpress-plugin-development-2nd-edition.md": {
+		"date": 1592340310,
+		"era": "current",
+		"category": [
+			"writing",
+			"plugindevbook"
+		]
+	},
+	"2020-09-21.new-design-work-in-progress.md": {
+		"date": 1600703862,
+		"era": "current",
+		"category": [
+			"updates"
+		]
+	},
+	"2020-09-23.just-me-and-my-laptop-two-years-after-wordpress.md": {
+		"date": 1600876980,
+		"era": "current",
+		"category": [
+			"wordpress",
+			"updates"
+		]
+	},
+	"2020-09-27.oreo.md": {
+		"date": 1601264774,
+		"era": "current",
+		"category": [
+			"animals",
+			"life"
+		]
+	},
+	"2020-09-30.updated-plugindevbook-page.md": {
+		"date": 1601487037,
+		"era": "current",
+		"category": [
+			"plugindevbook",
+			"wordpress"
+		]
+	},
+	"2020-12-30.two-car-garage-no-white-picket-fence.md": {
+		"date": 1609386816,
+		"era": "current",
+		"category": [
+			"life"
+		]
+	},
+	"2020-12-31.2020-counting-my-blessings.md": {
+		"date": 1609477200,
+		"era": "current",
+		"category": [
+			"holidays",
+			"life"
+		]
+	},
+	"2021-01-01.2021-goals.md": {
+		"date": 1609480800,
+		"era": "current",
+		"category": null
 	}
 }
