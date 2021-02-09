@@ -27,6 +27,11 @@ class Page extends Type {
 
 		$uri = App::resolve( 'uri/relative' );
 
+		// if index/front page, strip path.
+		if ( '_index' === $path ) {
+			$path = '';
+		}
+
 		return $path ? "{$uri}/{$path}" : $uri;
 	}
 

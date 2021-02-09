@@ -23,6 +23,17 @@ class Home {
 
 	protected function entries() {
 
+		// regular page - _index.md
+		$locator = new Locator();
+
+		$entries = new Entries( $locator, [ 'slug' => '_index' ] );
+
+		if ( $entries->all() ) {
+			return $entries;
+		}
+
+		// blog posts
+
 		$path = '_posts';
 
 		$locator = new Locator( $path );
