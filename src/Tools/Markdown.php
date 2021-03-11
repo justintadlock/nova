@@ -39,6 +39,13 @@ class Markdown extends \ParsedownExtra {
 
 		$text = trim( $Line['text'], '# ' );
 
+		// Check for text within a link.
+		preg_match( '#\[(.*?)\]#', $text, $match );
+
+		if ( $match && isset( $match[1] ) ) {
+			$text = $match[1];
+		}
+
 		$id = str_replace( ' ', '-', $text );
 		$id = preg_replace( '|%[a-fA-F0-9][a-fA-F0-9]|', '', $id );
 		$id = preg_replace( '/[^A-Za-z0-9_-]/', '', $id );
