@@ -6081,8 +6081,15 @@
 		]
 	},
 	"2021-01-01.2021-goals.md": {
-		"date": 1609480800,
+		"date": 1609563113,
 		"era": "current",
-		"category": null
+		"category": [
+			"holidays",
+			"life"
+		]
+	},
+	"2021-02-26.nelio-software-interview.md": {
+		"date": 1614350400,
+		"era": "current"
 	}
 }
